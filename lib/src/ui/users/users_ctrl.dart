@@ -6,6 +6,8 @@ class UsersCtrl extends GetxController {
   final UsersRepository usersRepository;
   UsersCtrl({required this.usersRepository});
 
+  var loading = false.obs;
+
   RxInt counter = 0.obs;
   RxList<User> usersObs = <User>[].obs;
 
@@ -19,7 +21,9 @@ class UsersCtrl extends GetxController {
   }
 
   Future<void> loadUsers() async {
+    loading.value = true;
     _users = await usersRepository.getUsers();
+    loading.value = false;
     counter.value = _users.length;
     update(['users']); // use with getbuilder
   }
