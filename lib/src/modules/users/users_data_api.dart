@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+
 import 'package:flutter_cleana/src/env.dart';
 import 'package:flutter_cleana/src/modules/users/user_model.dart';
 import 'package:flutter_cleana/src/modules/users/users_repository.dart';

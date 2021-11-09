@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 import 'package:flutter_cleana/src/ui/common/app_loading.dart';
 import 'package:flutter_cleana/src/ui/common/list_user_item.dart';
 import 'package:flutter_cleana/src/ui/config/config_view.dart';
 import 'package:flutter_cleana/src/ui/users/users_ctrl.dart';
-import 'package:get/get.dart';
 
 class UsersView extends GetView<UsersCtrl> {
   const UsersView({Key? key}) : super(key: key);

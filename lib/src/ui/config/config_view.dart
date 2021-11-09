@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 import 'package:flutter_cleana/src/theme_ctrl.dart';
 import 'package:flutter_cleana/src/ui/common/list_user_item.dart';
 import 'package:flutter_cleana/src/ui/users/users_ctrl.dart';
-import 'package:get/get.dart';
 
 class ConfigView extends StatelessWidget {
   const ConfigView({Key? key}) : super(key: key);
