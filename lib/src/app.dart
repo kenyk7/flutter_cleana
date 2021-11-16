@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cleana/src/env.dart';
 import 'package:get/get.dart';
 
+import 'env.dart';
 import 'app_navigation.dart';
 import 'main_bindings.dart';
 import 'theme_ctrl.dart';

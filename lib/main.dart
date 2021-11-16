@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cleana/src/env.dart';
+
+import './src/env.dart';
 import './src/app.dart';
 
 void main() {

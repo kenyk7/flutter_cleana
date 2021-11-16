@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 import 'package:flutter_cleana/src/modules/users/user_model.dart';
 import 'package:flutter_cleana/src/ui/users/users_ctrl.dart';
-import 'package:get/get.dart';
 
 class ListUserItem extends StatelessWidget {
   const ListUserItem({
