@@ -15,15 +15,18 @@ class User {
   String name;
   String email;
   bool isFav;
+  String? avatar;
   User({
     required this.id,
     required this.name,
     required this.email,
     this.isFav = false,
+    this.avatar,
   });
   factory User.fromJson(Map<String, dynamic> json) => User(
         id: json['id'],
         name: json['first_name'],
         email: json['email'],
+        avatar: json['avatar'],
       );
 }

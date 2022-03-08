@@ -15,10 +15,10 @@ class App extends StatelessWidget {
     Get.put(ThemeCtrl());
     return GetMaterialApp(
       debugShowCheckedModeBanner: env.appEnv == 'dev',
-      title: 'Joinnus',
-      theme: Themes.light,
+      title: 'Wine.ur',
+      theme: Themes.dark,
       darkTheme: Themes.dark,
-      initialRoute: '/users',
+      initialRoute: '/',
       getPages: AppPages.pages,
       initialBinding: MainBindings(),
     );

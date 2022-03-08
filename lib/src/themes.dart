@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppColors {
-  static const primary = Color(0xFF42a692);
+  static const primary = Color(0xFFce975e);
 }
 
 // themeLight
 const backgroundLightColor = Colors.white;
 // themeDark
-const backgroundDarkColor = Color(0xFF1F2026);
+const backgroundDarkColor = Color(0xFF141414);
 
 class Themes {
   static final light = ThemeData.light().copyWith(
@@ -38,5 +38,6 @@ class Themes {
     textTheme: GoogleFonts.poppinsTextTheme(
       ThemeData.dark().textTheme,
     ),
+    scaffoldBackgroundColor: backgroundDarkColor,
   );
 }

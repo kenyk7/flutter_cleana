@@ -6,7 +6,7 @@ abstract class BaseConfig {
 class DevConfig implements BaseConfig {
   @override
   String get apiUrl =>
-      'https://mocki.io/v1/d4a75a92-6db3-4154-8edb-149294fc637e';
+      'https://mocki.io/v1/e40463cc-5628-4241-a74b-07f352bc3a53';
 }
 
 class ProdConfig implements BaseConfig {
