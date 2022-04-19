@@ -1,4 +1,4 @@
-# flutter_cleana
+# Flutter cleana
 
 A new Flutter project.
 
